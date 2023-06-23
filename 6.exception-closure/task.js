@@ -66,7 +66,7 @@ function getTriangle(side1, side2, side3) {
   }
 }
 
-
+// Было не легко 
 
 
 
