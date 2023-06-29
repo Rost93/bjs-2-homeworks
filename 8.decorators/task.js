@@ -93,7 +93,7 @@ setTimeout(() => {
   console.log(upgradedSendSignal.count);
   console.log(upgradedSendSignal.allCount);
 }, 7000);
-// Гит глючит сильно глючит
+
 
 
 
