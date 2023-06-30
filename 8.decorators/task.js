@@ -3,7 +3,7 @@ function cachingDecoratorNew(func) {
   let cache = [];
 
   function wrapper(...args) {
-    const hash = md5(JSON.stringify(args)); // вычисляем хеш аргументов
+    const hash = (JSON.stringify(args)); // вычисляем хеш аргументов
     let objectInCache = cache.find((item) => item.hash === hash); // ищем элемент в кеше по хешу
 
     if (objectInCache) { // если элемент найден в кеше
@@ -94,7 +94,7 @@ setTimeout(() => {
   console.log(upgradedSendSignal.allCount);
 }, 7000);
 
-//новый комит 
+//новый комит еще один
 
 
 
